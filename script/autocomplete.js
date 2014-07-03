@@ -236,7 +236,7 @@ app.directive('autocomplete', function() {
                 '    ng-click="select(suggestion)"' +
                 '    ng-bind-html="suggestion | highlight:searchParam"></li>' +
                 '</ul>' +
-              '</div>';
+              '</div>'
   };
 });
 
